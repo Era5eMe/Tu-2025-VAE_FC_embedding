@@ -1,0 +1,1 @@
+Please go to https://huggingface.co/cindyhfls/fcMRI-VAE for pretrained model weights on 100 young adults from https://openneuro.org/datasets/ds000243/versions/00001/file-display/00001

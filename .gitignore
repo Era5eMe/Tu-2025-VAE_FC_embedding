@@ -1,2 +1,4 @@
 *.asv
 venv/
+Checkpoint/
+fMRIVAE_Model.py

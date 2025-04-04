@@ -1,5 +1,8 @@
 *.asv
 venv/
+data/
 Checkpoint/
 results/
+example_code/
 fMRIVAE_Model.py
+evals.py

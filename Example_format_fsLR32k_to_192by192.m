@@ -31,7 +31,7 @@ right_transmat = load(fullfile(mask_path, 'Right_fMRI2Grid_192_by_192_NN.mat')).
 load(data_full_path)
 
 %% Start converting data to .h5 format
-fmri_data1 = Priors.FC;
+fmri_data1 = Priors.FC; % double: [59412*1]
 assert(size(fmri_data1,1)==59412) % check that it has the correct number of cortical vertices (has to be 59412 in fsLR32k), if not, do something before to remove non-cortical vertices
 % Format data
 [LeftSurfData, RightSurfData] = FormatData(fmri_data1,cifti_type,left_transmat,right_transmat,randpermutation,sampleinterval,img_size);

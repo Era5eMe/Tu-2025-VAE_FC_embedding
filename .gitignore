@@ -8,3 +8,4 @@ fMRIVAE_Model.py
 evals.py
 mask/
 figures/
+Utils/
